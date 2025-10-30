@@ -1,0 +1,101 @@
+.activity-management {
+  padding: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filter-select {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  background: white;
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.activity-item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.activity-icon {
+  font-size: 1.5em;
+  flex-shrink: 0;
+}
+
+.activity-content {
+  flex: 1;
+}
+
+.activity-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.user-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.action {
+  color: #666;
+  font-style: italic;
+}
+
+.project-name {
+  color: #3498db;
+  font-weight: 500;
+}
+
+.activity-message {
+  color: #555;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+.activity-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.timestamp {
+  color: #999;
+}
+
+.activity-stats {
+  display: flex;
+  gap: 15px;
+}
+
+.likes, .downloads {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.activity-actions {
+  flex-shrink: 0;
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.8em;
+}

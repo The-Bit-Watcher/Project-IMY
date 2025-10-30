@@ -1,0 +1,162 @@
+.profile-preview {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-preview h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.profile-preview p {
+  margin: 0 0 10px 0;
+  color: #666;
+}
+
+.profile-stats {
+  margin-bottom: 15px;
+}
+
+.profile-stats span {
+  display: block;
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.view-profile-btn, .add-friend-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.view-profile-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.view-profile-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-friend-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-friend-btn:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.add-friend-btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.profile-preview {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  background: white;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.friend-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.friend-badge {
+  background: #28a745;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.request-sent-badge {
+  background: #ffc107;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.request-received-badge {
+  background: #17a2b8;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.view-profile-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-friend-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-friend-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-request-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.accept-request-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
