@@ -1,0 +1,29 @@
+.feed-loading,
+.feed-error,
+.feed-empty {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 16px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e1e5e9;
+  margin: 10px 0;
+}
+
+.feed-error {
+  color: #dc3545;
+  background: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.feed-empty {
+  color: #6c757d;
+  background: #f8f9fa;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

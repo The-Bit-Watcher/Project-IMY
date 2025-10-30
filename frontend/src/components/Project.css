@@ -1,0 +1,138 @@
+.project {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.project h1 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.project p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.project-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.project-details span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #5a6c7d;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  background: #f8f9fa;
+  border-radius: 0.25rem;
+}
+
+.project-details span:before {
+  content: "•";
+  color: #667eea;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .project {
+    padding: 1.5rem;
+  }
+  
+  .project h1 {
+    font-size: 1.5rem;
+  }
+  
+  .project-details {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .project-details span {
+    width: 100%;
+  }
+}
+
+.project {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Add to your Project.css */
+.file-highlighted {
+  background-color: #fff3cd !important;
+  border-left: 4px solid #ffc107 !important;
+  animation: pulse-highlight 2s ease-in-out;
+}
+
+@keyframes pulse-highlight {
+  0% { background-color: #fff3cd; }
+  50% { background-color: #ffeaa7; }
+  100% { background-color: #fff3cd; }
+}
+
+.files-list .file-item {
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.file-view-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.view-toggle-btn {
+  padding: 8px 16px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.view-toggle-btn:hover {
+  background: #5a6268;
+}
+
+.view-toggle-btn.active {
+  background: #0366d6;
+}
+
+.view-toggle-btn.active:hover {
+  background: #0256b9;
+}
+
+.download-all-btn {
+  padding: 8px 16px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.download-all-btn:hover {
+  background: #218838;
+}
