@@ -1,0 +1,195 @@
+db.checkins.insertMany([
+  // Test User's checkin in a different project (AI Image Recognition)
+  {
+    _id: ObjectId("68decb5294a85db483f6a9db"),
+    userId: ObjectId("68de9280335ebe602d694ed3"),
+    projectId: ObjectId("68decb5294a85db483f6a9d2"),
+    action: "tested",
+    message: "Comprehensive testing of image classification endpoints",
+    timestamp: new Date("2025-10-18T14:30:00.000Z"),
+    likes: 3,
+    downloads: 2
+  },
+  // Remaining checkins...
+  {
+    _id: ObjectId("68decb5294a85db483f6a9d8"),
+    userId: ObjectId("68de9280335ebe602d694ed3"),
+    projectId: ObjectId("68decb5294a85db483f6a9d1"),
+    action: "updated",
+    message: "Implemented user authentication system",
+    timestamp: new Date("2025-10-02T14:00:00.000Z"),
+    likes: 5,
+    downloads: 3
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9d9"),
+    userId: ObjectId("68de9280335ebe602d694ed4"),
+    projectId: ObjectId("68decb5294a85db483f6a9d1"),
+    action: "added",
+    message: "Added product search functionality with filters",
+    timestamp: new Date("2025-10-15T11:20:00.000Z"),
+    likes: 4,
+    downloads: 2
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9da"),
+    userId: ObjectId("68de9280335ebe602d694ed4"),
+    projectId: ObjectId("68dc493c5910d06de47caa0b"),
+    action: "updated",
+    message: "Fixed navigation bugs in mobile app",
+    timestamp: new Date("2025-10-20T16:45:00.000Z"),
+    likes: 2,
+    downloads: 1
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9dc"),
+    userId: ObjectId("68de9280335ebe602d694ed8"),
+    projectId: ObjectId("68decb5294a85db483f6a9d2"),
+    action: "added",
+    message: "Implemented neural network model for object detection",
+    timestamp: new Date("2025-10-22T10:15:00.000Z"),
+    likes: 7,
+    downloads: 5
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9dd"),
+    userId: ObjectId("68de9280335ebe602d694ed9"),
+    projectId: ObjectId("68decb5294a85db483f6a9d2"),
+    action: "updated",
+    message: "Optimized API response time by 40%",
+    timestamp: new Date("2025-10-25T13:40:00.000Z"),
+    likes: 6,
+    downloads: 4
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9de"),
+    userId: ObjectId("68de9280335ebe602d694ed5"),
+    projectId: ObjectId("68decb5294a85db483f6a9d3"),
+    action: "added",
+    message: "Created social media analytics dashboard",
+    timestamp: new Date("2025-10-05T09:30:00.000Z"),
+    likes: 8,
+    downloads: 6
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9df"),
+    userId: ObjectId("68de9280335ebe602d694ed4"),
+    projectId: ObjectId("68decb5294a85db483f6a9d3"),
+    action: "updated",
+    message: "Added real-time data visualization charts",
+    timestamp: new Date("2025-10-12T15:20:00.000Z"),
+    likes: 5,
+    downloads: 3
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e0"),
+    userId: ObjectId("68de9280335ebe602d694ed6"),
+    projectId: ObjectId("68decb5294a85db483f6a9d4"),
+    action: "added",
+    message: "Implemented multi-currency wallet support",
+    timestamp: new Date("2025-10-10T11:45:00.000Z"),
+    likes: 9,
+    downloads: 7
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e1"),
+    userId: ObjectId("68de9280335ebe602d694ed7"),
+    projectId: ObjectId("68decb5294a85db483f6a9d5"),
+    action: "added",
+    message: "Designed patient portal user interface",
+    timestamp: new Date("2025-10-03T14:15:00.000Z"),
+    likes: 4,
+    downloads: 2
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e2"),
+    userId: ObjectId("68de9280335ebe602d694ed9"),
+    projectId: ObjectId("68decb5294a85db483f6a9d5"),
+    action: "updated",
+    message: "Implemented secure patient data encryption",
+    timestamp: new Date("2025-10-08T16:30:00.000Z"),
+    likes: 6,
+    downloads: 4
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e3"),
+    userId: ObjectId("68de9280335ebe602d694ed8"),
+    projectId: ObjectId("68decb5294a85db483f6a9d6"),
+    action: "added",
+    message: "Created property listing management system",
+    timestamp: new Date("2025-10-15T13:10:00.000Z"),
+    likes: 5,
+    downloads: 3
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e4"),
+    userId: ObjectId("68de9280335ebe602d694ed4"),
+    projectId: ObjectId("68decb5294a85db483f6a9d6"),
+    action: "updated",
+    message: "Added advanced property search filters",
+    timestamp: new Date("2025-10-20T11:25:00.000Z"),
+    likes: 4,
+    downloads: 2
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e5"),
+    userId: ObjectId("68de9280335ebe602d694ed9"),
+    projectId: ObjectId("68decb5294a85db483f6a9d7"),
+    action: "added",
+    message: "Built workout tracking database schema",
+    timestamp: new Date("2025-10-18T09:45:00.000Z"),
+    likes: 7,
+    downloads: 5
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e6"),
+    userId: ObjectId("68de9280335ebe602d694ed6"),
+    projectId: ObjectId("68decb5294a85db483f6a9d7"),
+    action: "updated",
+    message: "Implemented GPS tracking for outdoor activities",
+    timestamp: new Date("2025-10-22T14:50:00.000Z"),
+    likes: 8,
+    downloads: 6
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e7"),
+    userId: ObjectId("68de9280335ebe602d694eda"),
+    projectId: ObjectId("68decb5294a85db483f6a9d8"),
+    action: "added",
+    message: "Created course management system",
+    timestamp: new Date("2025-10-10T10:30:00.000Z"),
+    likes: 6,
+    downloads: 4
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e8"),
+    userId: ObjectId("68de9280335ebe602d694ed4"),
+    projectId: ObjectId("68decb5294a85db483f6a9d8"),
+    action: "updated",
+    message: "Added video streaming capabilities",
+    timestamp: new Date("2025-10-15T16:15:00.000Z"),
+    likes: 5,
+    downloads: 3
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9e9"),
+    userId: ObjectId("68de9280335ebe602d694ed5"),
+    projectId: ObjectId("68decb5294a85db483f6a9d9"),
+    action: "added",
+    message: "Built restaurant management dashboard",
+    timestamp: new Date("2025-10-20T12:40:00.000Z"),
+    likes: 4,
+    downloads: 2
+  },
+  {
+    _id: ObjectId("68decb5294a85db483f6a9ea"),
+    userId: ObjectId("68de9280335ebe602d694ed6"),
+    projectId: ObjectId("68decb5294a85db483f6a9d9"),
+    action: "updated",
+    message: "Implemented real-time order tracking",
+    timestamp: new Date("2025-10-25T15:55:00.000Z"),
+    likes: 7,
+    downloads: 5
+  }
+])
+
